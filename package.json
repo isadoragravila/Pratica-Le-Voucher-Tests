@@ -10,7 +10,7 @@
     "prisma:reset": "prisma migrate reset",
     "prisma:migrate": "prisma migrate dev",
     "test:unit": "dotenv -e .env.test jest -- -i --coverage --testPathPattern=tests/unit",
-    "test": "jest"
+    "test": "jest -i --coverage"
   },
   "keywords": [],
   "author": "",
